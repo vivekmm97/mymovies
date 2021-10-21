@@ -9,6 +9,5 @@ class MoviesController < ActionController::Base
         render :json => {data: final_data}
     end
 
-    private
 end
 
